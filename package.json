@@ -1,0 +1,23 @@
+{
+  "name": "kickbot",
+  "version": "0.0.1",
+  "description": "A bot that keeps track of foosball matches",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "foosball",
+    "kicker",
+    "bot",
+    "slack"
+  ],
+  "author": "Jonas Hartweg",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.7.0",
+    "colors": "^1.1.2",
+    "lodash-node": "^3.10.2"
+  }
+}
