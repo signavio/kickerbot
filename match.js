@@ -1,7 +1,7 @@
 var MAX_PLAYERS_COUNT = 4
 
-var playerCount = 4
-var occupied = true
+var playerCount = 0
+var occupied = false
 
 function parseMessage(message) {
     // Normalize message string
