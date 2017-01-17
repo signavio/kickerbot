@@ -1,5 +1,5 @@
 {
-  "name": "kickbot",
+  "name": "kickerbot",
   "version": "0.0.1",
   "description": "A bot that keeps track of foosball matches",
   "main": "index.js",
@@ -19,5 +19,8 @@
     "@slack/client": "^3.7.0",
     "colors": "^1.1.2",
     "lodash-node": "^3.10.2"
+  },
+  "devDependencies": {
+    "eslint-config-signavio": "^1.4.2"
   }
 }
