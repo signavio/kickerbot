@@ -6,9 +6,10 @@ var RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 
 var match = require('./match.js');
 
-var bot_token = process.env.SLACK_BOT_TOKEN;
+var bot_token = process.env.npm_package_config_token;
+
 if(!bot_token) {
-    console.log("Error! No token set. Aborting.")
+    console.error("Error! No API token set. Check the readme for setup instructions.")
     process.exit()
 }
 
